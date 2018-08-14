@@ -2260,7 +2260,7 @@ function play(guild, song) {
 
 
 client.on("message", message => {
-    if (message.content === `${prefix}help`) {
+    if (message.content === `${prefix}m-help`) {
      const embed = new Discord.RichEmbed() //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
          .setColor("#000000")//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
          .setDescription(`
