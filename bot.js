@@ -1,4 +1,4 @@
- const Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
 client.on('ready', () => {
   client.user.setGame('=help|=inv','https://www.twitch.tv/OvErDz1');
@@ -11,9 +11,6 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 }); 
 
-
-
-  
 
 
 
@@ -309,6 +306,7 @@ return message.reply("**:white_check_mark: .. تم فك الميوت عن الش
 
 
 
+
 client.on("message", message => {
     if (message.content === "=help"){
 		message.channel.send('**تم ارسال الاوامر في الخاص**');
@@ -381,7 +379,7 @@ client.on("message", message => {
 💎『الدعم الفني والمساعدة』💎
 =inv | القسم الاول لي اضافه البوت 
 =support|القسم الثاني  الدعم الفني و المساعدة
-@!                 𝓥𝓞𝓛𝓛𝓨.." 🕊#3337   |  القسم الثالث مصمم البوت 
+@!           'EpicVolly_xD#4509  |  القسم الثالث مصمم البوت 
 ● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ● 
 **
 `)
@@ -390,6 +388,10 @@ client.on("message", message => {
 
     }
 });
+
+
+
+
 
 
 
@@ -1733,13 +1735,21 @@ eyad.reply("`تم الغاء الصراحة`")
 eyad.delete();
 })
 })
+})
+})
 }
+}
+});
 
-			 
-			 
-			 
-			 
-			 client.on('message',function(message) {
+
+
+
+
+
+
+
+
+client.on('message',function(message) {
   if(message.content === prefix + "inv") {
       if(!message.channel.guild) return;
       var mmmmEmbed = new Discord.RichEmbed()
